@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :moura, Moura.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "mourapops",
+  password: "q1w2e3r4",
   hostname: "localhost",
-  database: "moura_dev",
+  database: "mouradb",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
